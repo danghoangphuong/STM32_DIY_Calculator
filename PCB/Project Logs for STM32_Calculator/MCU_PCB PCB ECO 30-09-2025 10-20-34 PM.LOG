@@ -1,0 +1,107 @@
+Added Component: Designator=AMS1(SOT223)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH000596"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "AMS1117-3.3V SOT223"; VariantName = "[No Variations]"
+Added Component: Designator=C1(tu gom)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH004761"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? g?m 104 100nF 50V"; VariantName = "[No Variations]"
+Added Component: Designator=C2(tu hoa 5mm)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH001347"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? Hóa 100uF 16V 5x7MM"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(JP 1x9 DC)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH000904"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Jump Ðon Ð?c 2.54MM 1x40P Cong Ð?ng"; VariantName = "[No Variations]"
+Added Component: Designator=JP3(JP 1x6 DC)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH000904"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Jump Ðon Ð?c 2.54MM 1x40P Cong Ð?ng"; VariantName = "[No Variations]"
+Added Component: Designator=JP4(JP 1x2 DC)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH000904"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Jump Ðon Ð?c 2.54MM 1x40P Cong Ð?ng"; VariantName = "[No Variations]"
+Added Component: Designator=STM1(STM32F103 KIT)
+Added Pin To Net: NetName=+3.3 Pin=AMS1-2
+Added Pin To Net: NetName=+3.3 Pin=C2-1
+Added Pin To Net: NetName=+3.3 Pin=JP3-1
+Added Net: Name=+3.3
+Added Pin To Net: NetName=+5 Pin=AMS1-3
+Added Pin To Net: NetName=+5 Pin=C1-1
+Added Pin To Net: NetName=+5 Pin=JP3-4
+Added Net: Name=+5
+Added Pin To Net: NetName=COL1 Pin=JP2-5
+Added Pin To Net: NetName=COL1 Pin=STM1-1
+Added Net: Name=COL1
+Added Pin To Net: NetName=COL2 Pin=JP2-4
+Added Pin To Net: NetName=COL2 Pin=STM1-2
+Added Net: Name=COL2
+Added Pin To Net: NetName=COL3 Pin=JP2-3
+Added Pin To Net: NetName=COL3 Pin=STM1-3
+Added Net: Name=COL3
+Added Pin To Net: NetName=COL4 Pin=JP2-2
+Added Pin To Net: NetName=COL4 Pin=STM1-4
+Added Net: Name=COL4
+Added Pin To Net: NetName=COL5 Pin=JP2-1
+Added Pin To Net: NetName=COL5 Pin=STM1-5
+Added Net: Name=COL5
+Added Pin To Net: NetName=GND Pin=AMS1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=JP3-2
+Added Pin To Net: NetName=GND Pin=JP3-3
+Added Pin To Net: NetName=GND Pin=STM1-19
+Added Pin To Net: NetName=GND Pin=STM1-39
+Added Pin To Net: NetName=GND Pin=STM1-40
+Added Net: Name=GND
+Added Pin To Net: NetName=LCD_SCL Pin=JP3-6
+Added Pin To Net: NetName=LCD_SCL Pin=STM1-16
+Added Net: Name=LCD_SCL
+Added Pin To Net: NetName=LCD_SDA Pin=JP3-5
+Added Pin To Net: NetName=LCD_SDA Pin=STM1-15
+Added Net: Name=LCD_SDA
+Added Pin To Net: NetName=ROW1 Pin=JP2-9
+Added Pin To Net: NetName=ROW1 Pin=STM1-10
+Added Net: Name=ROW1
+Added Pin To Net: NetName=ROW2 Pin=JP2-8
+Added Pin To Net: NetName=ROW2 Pin=STM1-11
+Added Net: Name=ROW2
+Added Pin To Net: NetName=ROW3 Pin=JP2-7
+Added Pin To Net: NetName=ROW3 Pin=STM1-12
+Added Net: Name=ROW3
+Added Pin To Net: NetName=ROW4 Pin=JP2-6
+Added Pin To Net: NetName=ROW4 Pin=STM1-13
+Added Net: Name=ROW4
+Added Pin To Net: NetName=UART_RX Pin=JP4-2
+Added Pin To Net: NetName=UART_RX Pin=STM1-7
+Added Net: Name=UART_RX
+Added Pin To Net: NetName=UART_TX Pin=JP4-1
+Added Pin To Net: NetName=UART_TX Pin=STM1-6
+Added Net: Name=UART_TX
+Added Member To Class: ClassName=MCU_Schematic Member=Component AMS1 AMS1117-3.3V
+Added Member To Class: ClassName=MCU_Schematic Member=Component C1 104
+Added Member To Class: ClassName=MCU_Schematic Member=Component C2 100uF
+Added Member To Class: ClassName=MCU_Schematic Member=Component JP2 JP 1x9 2.54
+Added Member To Class: ClassName=MCU_Schematic Member=Component JP3 JP 1x6 2.54
+Added Member To Class: ClassName=MCU_Schematic Member=Component JP4 JP 1x2 2.54
+Added Member To Class: ClassName=MCU_Schematic Member=Component STM1 KIT STM32F103C8T6
+Added Room: Name=MCU_Schematic

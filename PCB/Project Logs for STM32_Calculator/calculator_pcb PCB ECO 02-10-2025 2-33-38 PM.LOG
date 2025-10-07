@@ -1,0 +1,4 @@
+Added Component: Designator=LCD?(LCD16X2)
+Add component (AddParameter): Name = "Value"; Value = "LCD16x2A"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=SCHEMATIC Member=Component LCD? LCD16x2A
+Added Room: Name=SCHEMATIC

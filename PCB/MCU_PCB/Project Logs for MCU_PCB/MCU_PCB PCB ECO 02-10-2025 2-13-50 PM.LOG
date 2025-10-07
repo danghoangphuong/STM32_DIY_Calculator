@@ -1,0 +1,6 @@
+Added Component: Designator=HD1(HED2)
+Add component (AddParameter): Name = "Value"; Value = "Header 2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=HD1-1
+Added Pin To Net: NetName=+5 Pin=HD1-2
+Added Member To Class: ClassName=MCU_Schematic Member=Component HD1 Header 2
+Added Room: Name=MCU_Schematic

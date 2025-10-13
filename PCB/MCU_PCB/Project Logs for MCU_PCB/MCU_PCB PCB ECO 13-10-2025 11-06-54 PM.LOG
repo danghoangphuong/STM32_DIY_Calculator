@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LCD_SCL Pin=STM1-16
+Added Pin To Net: NetName=LCD_SCL Pin=STM1-14
+Added Member To Class: ClassName=MCU_Schematic Member=Component STM1 KIT STM32F103C8T6
+Added Room: Name=MCU_Schematic

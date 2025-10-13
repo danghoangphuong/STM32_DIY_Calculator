@@ -335,6 +335,50 @@ void Key_pressed_handle(const char *key)
 		lcd_send_string(buffer_display);
 	}
 	
+// ==================Negation key===================
+else if(strcmp(key, "+/-") == 0)
+{
+    if(is_continue_cal)
+    {
+        // d?i d?u k?t qu? cu?i
+        last_result = -last_result;
+        sprintf(result_str, "%g", last_result);
+        lcd_goto_XY(1,0);
+        lcd_send_string("               ");
+        lcd_goto_XY(1,0);
+        lcd_send_string(result_str);
+    }
+    else
+    {
+        // d?i d?u s? dang nh?p
+        if(strlen(buffer_operand) > 0)
+        {
+            float val = atof(buffer_operand);
+            val = -val;
+            sprintf(buffer_operand, "%g", val);
+
+            // C?p nh?t l?i ph?n hi?n th?
+            // Xóa ph?n cu?i cu c?a s? và thay b?ng s? m?i có d?u
+            // Cách don gi?n nh?t: tính l?i hi?n th? toàn b?
+            // ho?c (n?u b?n luu root_expr) thì c?p nh?t luôn trong dó
+            // ? dây ta ch? s?a tr?c ti?p buffer_display:
+            int len_disp = strlen(buffer_display);
+            // Tìm v? trí b?t d?u c?a s? dang nh?p trong buffer_display
+            // (di lùi d?n khi g?p toán t?)
+            int pos = len_disp - 1;
+            while(pos >= 0 && (isdigit(buffer_display[pos]) || buffer_display[pos] == '.' || buffer_display[pos] == '-'))
+                pos--;
+            buffer_display[pos+1] = '\0';
+            strcat(buffer_display, buffer_operand);
+
+            lcd_goto_XY(0,0);
+            lcd_send_string("               ");
+            lcd_goto_XY(0,0);
+            lcd_send_string(buffer_display);
+        }
+    }
+}
+	
 //================== calculate Percentage=================
 	else if(strcmp(key, "%")==0)
 	{
@@ -476,11 +520,12 @@ int main(void)
   MX_I2C1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+	HAL_Delay(1000);
 	lcd_init();
-	lcd_goto_XY(0,2);
-	lcd_send_string("May tinh cua");
+	lcd_goto_XY(0,1);
+	lcd_send_string("Tran Ngoc Diep");
 	lcd_goto_XY(1,2);
-	lcd_send_string("Diep beo");
+	lcd_send_string("Calculator");
 	HAL_Delay(2000);
 	lcd_clear_display();
   /* USER CODE END 2 */

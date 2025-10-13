@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=LCD_SCL Pin=JP3-4
+Removed Pin From Net: NetName=LCD_SDA Pin=JP3-5
+Added Pin To Net: NetName=LCD_SDA Pin=JP3-4
+Added Pin To Net: NetName=LCD_SCL Pin=JP3-5
+Added Room: Name=MCU_Schematic

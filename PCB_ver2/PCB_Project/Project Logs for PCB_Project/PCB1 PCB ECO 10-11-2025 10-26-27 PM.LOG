@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=COL1 Pin=JP4-1
+Removed Pin From Net: NetName=COL2 Pin=JP4-2
+Removed Pin From Net: NetName=COL3 Pin=JP4-3
+Removed Pin From Net: NetName=COL4 Pin=JP4-4
+Removed Pin From Net: NetName=COL5 Pin=JP4-5
+Removed Pin From Net: NetName=ROW1 Pin=JP4-6
+Removed Pin From Net: NetName=ROW2 Pin=JP4-7
+Removed Pin From Net: NetName=ROW3 Pin=JP4-8
+Removed Pin From Net: NetName=ROW4 Pin=JP4-9
+Removed Member From Class: ClassName=MCU Member=JP4
+Added Component: Designator=JP?(JP 1x4 DT)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH000903"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Jump Ðon Ð?c 2.54MM 1x40P Th?ng 11MM"; VariantName = "[No Variations]"
+Added Component: Designator=JP?(JP 1x5 DT)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH000903"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Jump Ðon Ð?c 2.54MM 1x40P Th?ng 11MM"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=COL1 Pin=JP?-1
+Added Pin To Net: NetName=ROW1 Pin=JP?-1
+Added Pin To Net: NetName=COL2 Pin=JP?-2
+Added Pin To Net: NetName=ROW2 Pin=JP?-2
+Added Pin To Net: NetName=COL3 Pin=JP?-3
+Added Pin To Net: NetName=ROW3 Pin=JP?-3
+Added Pin To Net: NetName=COL4 Pin=JP?-4
+Added Pin To Net: NetName=ROW4 Pin=JP?-4
+Added Pin To Net: NetName=COL5 Pin=JP?-5
+Added Member To Class: ClassName=MCU Member=Component JP? JP 1x4 2.54
+Added Member To Class: ClassName=MCU Member=Component JP? JP 1x5 2.54
+Added Room: Name=MCU

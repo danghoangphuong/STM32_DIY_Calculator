@@ -1,0 +1,40 @@
+Added Component: Designator=U1(LQFP48)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "www.st.com/stm32"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/stonline/products/literature/ds/13586.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "rev6, Mar-2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "48-Pin Low-Profile Quad Flat Pack, 7 x 7 mm Body, 0.5 mm Pitch (LQFP48)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LQFP48"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Mar-2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "30-May-2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=LED_TEST Pin=U1-2
+Added Pin To Net: NetName=X0 Pin=U1-5
+Added Pin To Net: NetName=X1 Pin=U1-6
+Added Pin To Net: NetName=NRST Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=+3.3V Pin=U1-9
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Pin To Net: NetName=+3.3V Pin=U1-24
+Added Pin To Net: NetName=COL1 Pin=U1-25
+Added Pin To Net: NetName=COL2 Pin=U1-26
+Added Pin To Net: NetName=COL3 Pin=U1-27
+Added Pin To Net: NetName=COL4 Pin=U1-28
+Added Pin To Net: NetName=COL5 Pin=U1-29
+Added Pin To Net: NetName=TX Pin=U1-30
+Added Pin To Net: NetName=RX Pin=U1-31
+Added Pin To Net: NetName=SWDIO Pin=U1-34
+Added Pin To Net: NetName=GND Pin=U1-35
+Added Pin To Net: NetName=+3.3V Pin=U1-36
+Added Pin To Net: NetName=SWCLK Pin=U1-37
+Added Pin To Net: NetName=ROW1 Pin=U1-38
+Added Pin To Net: NetName=ROW2 Pin=U1-39
+Added Pin To Net: NetName=ROW3 Pin=U1-40
+Added Pin To Net: NetName=ROW4 Pin=U1-41
+Added Pin To Net: NetName=LCD_SCL Pin=U1-42
+Added Pin To Net: NetName=LCD_SDA Pin=U1-43
+Added Pin To Net: NetName=GND Pin=U1-44
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=+3.3V Pin=U1-48
+Added Member To Class: ClassName=MCU Member=Component U1 STM32F103C8T6

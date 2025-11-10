@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=+3.3V Pin=JP1-1
+Removed Pin From Net: NetName=SWDIO Pin=JP1-2
+Removed Pin From Net: NetName=LCD_SDA Pin=JP3-3
+Removed Pin From Net: NetName=LCD_SCL Pin=JP3-4
+Added Pin To Net: NetName=SWDIO Pin=JP1-1
+Added Pin To Net: NetName=+3.3V Pin=JP1-2
+Added Pin To Net: NetName=LCD_SCL Pin=JP3-3
+Added Pin To Net: NetName=LCD_SDA Pin=JP3-4
+Added Member To Class: ClassName=MCU Member=Component JP4 JP 1x4 2.54
+Added Room: Name=MCU
